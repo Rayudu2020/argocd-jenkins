@@ -1,1 +1,1 @@
-# argocd-jenkins
+# argocd-lab
