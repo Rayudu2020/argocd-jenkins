@@ -13,7 +13,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: jenkins/
-    repoURL: 'git@github.com:Rayudu2020/argocd-jenkins.git'
+    repoURL: {{ .Values.spec.source.repoURL }}
     targetRevision: {{ .Values.spec.source.targetRevision }}   
   project: default
   syncPolicy:

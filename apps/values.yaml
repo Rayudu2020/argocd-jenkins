@@ -3,3 +3,4 @@
 spec:
   source:
     targetRevision: main
+    repoURL: git@github.com:Rayudu2020/argocd-jenkins.git
